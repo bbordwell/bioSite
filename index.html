@@ -1,3 +1,5 @@
+<!--Ben Bordwell bioSite landing page-->
+
 <!DOCTYPE html>
 <head>
     <title>Tyler's Bio Site</title>
@@ -8,11 +10,13 @@
 </head>
 <body>
     <div id="container">
-        <div id="navigation" >
-            <a href="index.html">Home</a>
-            <a href="biography.html">About</a>
-            <a href="hobbies.html">Hobbies</a>
-        </div>
+        <header>
+            <div id="navigation" >
+                <a href="index.html" name="top">Home</a>
+                <a href="biography.html">About</a>
+                <a href="hobbies.html">Hobbies</a>
+            </div>
+        </header>
         <h1>Welcome to Tyler's bioSite</h1>
         <figure id="mainPhotoFigure">
             <img id="mainPhotoImg" src="images/TylerPortrait.jpg" alt="Portrait of Tyler">
@@ -26,14 +30,20 @@
         <div id="img-gallery">
             <figure id="grid1">
                 <img class="gridImg" src="images/tylerGrad.jpg" alt="Tyler's College Graduation">
+                <figcaption>Tyler's College Graduation</figcaption>
             </figure>
             <figure id="grid2">
                 <img class="gridImg" src="images/TylerMadrid.jpg" alt="Tyler In Madrid">
+                <figcaption>Tyler in Madrid</figcaption>
             </figure>
             <figure id="grid3">
                 <img class="gridImg" src="images/TylerWinterCamping.jpg" alt="Tyler Camping">
+                <figcaption>Tyler Camping</figcaption>
             </figure>
         </div>
+        <footer>
+            <a href="#top">Back to Top</a>
+        </footer>
     </div>
     
 </body>

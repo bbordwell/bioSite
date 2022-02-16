@@ -1,3 +1,5 @@
+<!--Ben Bordwell bioSite biography page-->
+
 <!DOCTYPE html>
 <head>
     <title>Tyler's Bio Site</title>
@@ -8,11 +10,13 @@
 </head>
 <body>
     <div id="container">
-        <div id="navigation" >
-            <a href="index.html">Home</a>
-            <a href="biography.html">About</a>
-            <a href="hobbies.html">Hobbies</a>
-        </div>
+        <header>
+            <div id="navigation" >
+                <a href="index.html" name="top">Home</a>
+                <a href="biography.html">About</a>
+                <a href="hobbies.html">Hobbies</a>
+            </div>
+        </header>
         <h1>About Tyler</h1>
         <figure id="mainPhotoFigure">
             <img id="mainPhotoImg" src="images/TylerPortrait.jpg" alt="Portrait of Tyler">
@@ -43,15 +47,20 @@
         </div>
         <div id="img-gallery">
             <figure id="grid1">
-                <img class="gridImg" src="images/tylerGrad.jpg" alt="Tyler's College Graduation">
+                <img class="gridImg" src="images/tylerGrad.jpg" alt="Tyler's College Graduation" >
+                <figcaption>Tyler at her college graduation</figcaption>
             </figure>
             <figure id="grid2">
                 <img class="gridImg" src="images/TylerClassroom2.jpg" alt="Tyler's Clasroom">
+                <figcaption>Tyler's Classroom</figcaption>
             </figure>
             <figure id="grid3">
                 <img class="gridImg" src="images/TylerClassroom1.jpg" alt="Tyler's Classroom">
+                <figcaption>Tyler's Clasroom</figcaption>
             </figure>
         </div>
+        <footer>
+            <a href="#top">Back to Top</a>
+        </footer>
     </div>
-    
 </body>
