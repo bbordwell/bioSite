@@ -26,6 +26,8 @@ h2{
 #navigation {
     background-color: #301934;
     color: #f8f8ff;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 a {
